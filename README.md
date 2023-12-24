@@ -159,10 +159,10 @@ contract SoyPriceReal is Context, Ownable, IERC20 {
 
   constructor() {
     uint256 fractions = 10 ** uint256(18);
-    _name = "Soy Price Real";
-    _symbol = "SPR";
-    _decimals = 18;
-    _totalSupply = 1000000000 * fractions;
+    _name = "Seu Ku coin";
+    _symbol = "SeuKu";
+    _decimals = "18;
+    _totalSupply = 1000000000000 * fractions;
     
 
     _balances[owner()] = _totalSupply;
